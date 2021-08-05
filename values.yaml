@@ -1,6 +1,18 @@
-jump-app-front-level2:
+jump-app-front-micro01:
   jump-app-front:
-    project: test
+    project: micro01
+    pod:
+      replicas: 1
+      port: 3000
+      protocol: TCP
+    service:
+      port: 8080
+    route:
+      security: Disable
+
+jump-app-front-micro02:
+  jump-app-front:
+    project: micro02
     pod:
       replicas: 2
       port: 3000
