@@ -1,0 +1,11 @@
+jump-app-front-level2:
+  jump-app-front:
+    project: test
+    pod:
+      replicas: 2
+      port: 3000
+      protocol: TCP
+    service:
+      port: 8080
+    route:
+      security: Disable

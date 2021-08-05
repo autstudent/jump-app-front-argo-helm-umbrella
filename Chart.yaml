@@ -1,0 +1,16 @@
+apiVersion: v2
+name: jump-app-front-umbrella
+description: A Helm chart to deploy JumpApp for Kubernetes
+type: application
+
+version: 0.1.0
+appVersion: 0.1.16
+
+mantainers:
+  - name: Asier Cidon
+    email: acidonpe@redhat.com
+
+dependencies:
+  - name: jump-app-front-level2
+    repository: https://autstudent.github.io/jump-app-front-argo-helm-level2
+    version: 0.1.0
