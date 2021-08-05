@@ -10,14 +10,3 @@ jump-app-front-micro01:
     route:
       security: Redirect
 
-jump-app-front-micro02:
-  jump-app-front:
-    project: micro02
-    pod:
-      replicas: 2
-      port: 3000
-      protocol: TCP
-    service:
-      port: 8080
-    route:
-      security: Redirect
