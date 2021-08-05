@@ -8,4 +8,4 @@ jump-app-front-level2:
     service:
       port: 8080
     route:
-      security: Disable
+      security: Redirect
