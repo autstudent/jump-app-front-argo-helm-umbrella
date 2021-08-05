@@ -8,7 +8,7 @@ jump-app-front-micro01:
     service:
       port: 8080
     route:
-      security: Disable
+      security: Redirect
 
 jump-app-front-micro02:
   jump-app-front:
@@ -20,4 +20,4 @@ jump-app-front-micro02:
     service:
       port: 8080
     route:
-      security: Disable
+      security: Redirect
